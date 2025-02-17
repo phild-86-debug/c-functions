@@ -9,13 +9,15 @@ int main() {
     int b = 1;
     int c = 0;
   
-    printf("1 1 ");
+    //printf("1 1 ");
     for(int i = 2; i < n; i++)
     {
         c = a + b;
-        printf("%d ",c);
+        // printf("%d ",c);
         a = b;
         b = c;
     }
+
+    printf("%d\n", c);
     return 0;
 }
