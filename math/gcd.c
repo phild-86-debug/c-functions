@@ -11,10 +11,10 @@ int main()
     printf("Enter two integers: ");
     scanf("%d %d", &a, &b);
 
-    if(a > b)
-        x = a;
-    else
+    if(a >= b)
         x = b;
+    else
+        x = a;
     
     // iterate from 1 to x: find integer that divides them both- greatest divisor will be last. 
 
