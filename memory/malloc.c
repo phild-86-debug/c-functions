@@ -1,6 +1,11 @@
 // malloc.c
 // 03/03/2025
 
+#include <stdio.h>
+#include <stdlib.h>
+
+
+
 int *getArray(int n)
 {
     int *ptr = malloc(sizeof(int) * n);
