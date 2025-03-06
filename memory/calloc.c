@@ -16,6 +16,10 @@ int main()
     int *ptr = getArray(n);
     for(int i = 0; i < n; i++)
         printf("%d ", ptr[i]);
+    printf("\n");
+
+    free(ptr);
+    ptr = NULL;
     return 0;
 
 }
